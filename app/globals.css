@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Charcoal + Copper palette — overrides Tailwind defaults */
+@theme {
+  /* Charcoal replaces blue */
+  --color-blue-900: #1C1C1E;
+  --color-blue-800: #252527;
+  --color-blue-700: #2E2E32;
+  --color-blue-600: #3A3A40;
+  --color-blue-500: #48484F;
+  --color-blue-200: #C8C8D0;
+  --color-blue-100: #E8E8EC;
+  --color-blue-50:  #F4F4F6;
+
+  /* Copper replaces yellow */
+  --color-yellow-400: #C1762A;
+  --color-yellow-300: #D08B3F;
+  --color-yellow-500: #A8631F;
+  --color-yellow-600: #8F521A;
+
+  /* Warm cream replaces gray-50 */
+  --color-gray-50: #F5F0EB;
+}
+
+:root {
+  --background: #F5F0EB;
+  --foreground: #1C1C1E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: rtl;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
