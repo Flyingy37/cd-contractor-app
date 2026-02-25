@@ -16,6 +16,7 @@ const jsonLd = {
   "url": "https://mycontractor.co.il",
   "keywords": "קבלן שיפוצים בתל אביב, שיפוץ דירה במרכז, קבלן רשום, מחיר שיפוץ דירה, ניהול פרויקטים בנייה",
   "telephone": "050-1234567",
+  "priceRange": "₪₪₪",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "תל אביב",
